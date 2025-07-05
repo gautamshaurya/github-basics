@@ -1,0 +1,47 @@
+To initialize git in a folder:
+git init
+
+To clone a project :
+git clone <project url ssh> 
+Sample :
+git clone git@github.com:gautamshaurya/github-basics.git
+
+
+To check current branch :
+git branch
+
+To create a new branch (from current branch) :
+git checkout -b <branchname>
+ Sample eg:
+git checkout -b feature/command-files
+
+
+
+To check git status:
+git status
+
+To stage a file for commit:
+git add <file path + file name >
+Sample 
+git add github_commands/terminal-commands.txt
+
+
+
+To stage all files :
+git add *
+
+
+To upstage a files:
+git restore --staged github_commands/terminal-commands.txt
+
+
+ 
+
+To commit :
+git commit -m <commit message>
+Sample :
+git commit -m “added command files”
+
+
+To push commit to remotes:
+git push
