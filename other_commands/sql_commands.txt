@@ -1,0 +1,52 @@
+--CREATE TABLE school_metadata (
+--    id SERIAL PRIMARY KEY,
+--    key TEXT,
+--    value TEXT
+--);
+
+
+--INSERT INTO school_metadata (key, value) VALUES ('school_name', 'Greenwood High');
+--INSERT INTO school_metadata (key, value) VALUES ('established_year', '1995');
+--INSERT INTO school_metadata (key, value) VALUES ('location', 'Bangalore');
+--INSERT INTO school_metadata (key, value) VALUES ('principal_name', 'Dr. Anita Sharma');
+--INSERT INTO school_metadata (key, value) VALUES ('student_capacity', '1500');
+--INSERT INTO school_metadata (key, value) VALUES ('board', 'cbse');
+
+select * from school_metadata;
+
+select * from school_metadata where key = 'school_name';
+
+select value from school_metadata where key = 'school_name';
+
+select value , id from school_metadata where key = 'school_name';
+
+
+
+
+----------------------------
+
+
+
+
+--CREATE TABLE customer_data(
+--    id SERIAL PRIMARY KEY,
+--    name TEXT,
+--    phone INTEGER,
+--    address TEXT
+--);
+
+
+INSERT INTO customer_data (name, phone, addresss) VALUES ('ram', 123328, 'ram nagar');
+INSERT INTO customer_data (name, phone, addresss) VALUES ('shyam', 1968, 'shyam nagar');
+INSERT INTO customer_data (name, phone, addresss) VALUES ('rick', 479, 'banglore');
+INSERT INTO customer_data (name, phone, addresss) VALUES ('ross', 468, 'usa');
+INSERT INTO customer_data (name, phone, addresss) VALUES ('sam', 1500, 'uk');
+
+select * from customer_data;
+
+select * from school_metadata where key = 'school_name';
+
+select value from school_metadata where key = 'school_name';
+
+select value , id from school_metadata where key = 'school_name';
+
